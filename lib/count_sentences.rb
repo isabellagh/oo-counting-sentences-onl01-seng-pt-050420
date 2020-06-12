@@ -27,8 +27,14 @@ class String
   end 
   
   def count_sentences
+<<<<<<< HEAD
     count = self.split(/[.?!]/)
     count.delete_if{|sentence| sentence.empty?}
     count.length
   end 
+=======
+    self.count_sentences.join
+  end 
+  
+>>>>>>> 5313eed14125a53022ab7cabc146c158f3a9c5db
 end 
